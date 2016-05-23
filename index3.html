@@ -1,0 +1,43 @@
+<!DOCTYTE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<form id="men" method="post" action="">
+   <fieldset>
+   <legend><h3>Форма для вводу даних</h3></legend>
+     <label for name="fio">Прізвище імя</label>
+     <input type="text"  name="fio" required pattern="^[А-Яа-я\s]+$" autofocus="autofocus"/>
+	 <p>
+	 <label for name="email">Електронна адреса</label>
+     <input type="email" name="email" required/>
+     <label for name="telefon">Телефон</label>
+     <input type="telefon" name="telefon"/>
+	 </p>
+	 <label for name="kurs">Виберіть курс</label>
+	 <select name="kurs" >
+     <option value="java">java</option>
+     <option value="html">html</option>
+     <option value="net">net</option>
+     </select>
+     <p><input type="submit" value="Відправити"/></p>
+   </fieldset>
+</form>
+<h3>Довідкова інформація</h3>
+<ul>
+   <li><a href="#jav">java</a></li>
+   <li><a href="#ht">html</a></li>
+   <li><a href="#ne">net</a></li>
+</ul>  
+<div id="jav">
+<p><b>JAVA</b> Даний курс розрахований исиужийкуи уйукдтмйєктмтйжмтутдт тмумокимлоокуимлкимлк</p>
+</div>
+<div id="ht">
+<p><b>HTML</b> Даний курс мумтмлдтмдклмклмдткмоикимлоктдмткжмтдкмликлим</p>
+</div>
+<div id="ne">
+<p><b>NET</b> Даний курс мтт кулмк лум лкум коутм.лдктршгпшрємокмкмпк</p>
+</div>
+</body>
+</html>
