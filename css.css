@@ -1,0 +1,48 @@
+body {
+	font: 1em Arial, Helvetica, sans-serif; 
+    background: #D7E1F2; 
+    color: black;
+}
+ nav {
+	padding: 10px 5px 0 0;
+	border: 2px ;
+	width: 200px;
+	float: left;
+}
+header {
+	 
+margin-left: 210px;}
+
+.fig {
+	float: left;
+	padding: 4px;
+	margin: 0 10px 5px 0;
+}
+table.menu{
+	background: #fc0;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+}
+.menu td {
+	border: 1px solid white;
+	padding: 4px;
+}
+.menu a{
+	color: #be1e2d;
+}
+a:hover{
+	color: f00;
+}
+a{
+	text-decoration: none;
+}
+
+
+footer { 
+    clear: both; 
+    padding: 5px; 
+    background: #D71920; 
+	text-align: center;
+	
+   }
